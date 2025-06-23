@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "In penetration testing, what does the term 'fuzzing' refer to?",
+      "options": [
+        "Performing a dictionary attack",
+        "Injecting random data to crash the system",
+        "Gaining unauthorized access to a system",
+        "Hiding malicious code in legitimate software"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the acronym OSINT stand for in cybersecurity?",
+      "options": [
+        "Open Source Intelligent Network Transmission",
+        "Open Source Intelligence",
+        "Operating System Integrated Network Tool",
+        "Operation Secure Internet Network Transmission"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is the most secure symmetric encryption algorithm?",
+      "options": [
+        "DES",
+        "AES",
+        "RC4",
+        "Blowfish"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In digital forensics, what is the purpose of a checksum?",
+      "options": [
+        "To verify the integrity of data",
+        "To encrypt data",
+        "To detect viruses",
+        "To compress data"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the principle of 'least privilege' in cybersecurity?",
+      "options": [
+        "Giving users the minimum levels of access necessary",
+        "Restricting physical access to hardware",
+        "Installing the minimum amount of software",
+        "Limiting the number of login attempts"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does a 'salting' process do in context of password storage?",
+      "options": [
+        "It simplifies the password",
+        "It encrypts the password",
+        "It adds a random value to the password before hashing",
+        "It stores the password in plain text"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What type of attack is a 'Smurf' attack?",
+      "options": [
+        "DDoS Attack",
+        "Man in the Middle Attack",
+        "Passive Attack",
+        "Phishing Attack"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a type of malware?",
+      "options": [
+        "Worm",
+        "Trojan",
+        "Ransomware",
+        "Blockchain"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the 'P' stand for in the acronym 'HTTPS'?",
+      "options": [
+        "Protocol",
+        "Protection",
+        "Private",
+        "Public"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is steganography in the context of cybersecurity?",
+      "options": [
+        "Encrypting data",
+        "Hiding data within other data",
+        "Transmitting data wirelessly",
+        "Removing sensitive information from data"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is a 'rainbow table' in the context of cybersecurity?",
+      "options": [
+        "A table of all possible hash values",
+        "A colorful UI table",
+        "A type of virus",
+        "A type of firewall"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of these is NOT a step in the Open Source Intelligence (OSINT) process?",
+      "options": [
+        "Planning",
+        "Collection",
+        "Encryption",
+        "Analysis"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does a 'packet sniffer' do?",
+      "options": [
+        "It detects the physical location of a network",
+        "It captures and analyzes network traffic",
+        "It measures the speed of data transfer",
+        "It protects against DDoS attacks"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In penetration testing, what is 'fuzzing'?",
+      "options": [
+        "A technique of finding security loopholes",
+        "A method of encryption",
+        "A process of network mapping",
+        "An automated software testing technique for discovering coding errors and security loopholes"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is 'steghide' used for?",
+      "options": [
+        "Password cracking",
+        "Network scanning",
+        "Steganography",
+        "Cryptocurrency mining"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which method does PGP use for encryption?",
+      "options": [
+        "Symmetric-key cryptography",
+        "Asymmetric-key cryptography",
+        "Both symmetric and asymmetric cryptography",
+        "Quantum key distribution"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is 'salting' in context of password storage?",
+      "options": [
+        "A form of encryption",
+        "A method of compressing data",
+        "Adding random data to the password before hashing",
+        "A method of data recovery"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary purpose of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To prevent access to a network",
+        "To detect potential incidents, log information about them, and report attempts",
+        "To provide a firewall",
+        "To monitor network traffic"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does 'Zero Day' mean in cybersecurity?",
+      "options": [
+        "The day a system crashes",
+        "A bug unknown to those who should be interested in its mitigation",
+        "The day a security patch is released",
+        "The day a new version of software is released"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is 'DNS spoofing'?",
+      "options": [
+        "An attack that redirects the traffic of one website to another",
+        "The process of assigning a domain name to an IP address",
+        "A type of DDoS attack",
+        "A method of bypassing DNS security measures"
+      ],
+      "correct": 0
+    }
+  ]
+}

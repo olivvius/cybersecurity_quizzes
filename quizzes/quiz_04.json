@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is 'pivoting' in penetration testing?",
+      "options": [
+        "Changing passwords",
+        "Using a compromised system to attack others",
+        "Encrypting communications",
+        "Masking IP address"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the main goal of an SQL injection attack?",
+      "options": [
+        "Overload server",
+        "Execute malicious code on database",
+        "Steal passwords",
+        "Analyze network"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a reverse shell?",
+      "options": [
+        "A shell that runs backward",
+        "Connection initiated by target to attacker",
+        "Encrypted shell",
+        "Temporary shell"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which protocol is commonly used for two-factor authentication?",
+      "options": [
+        "OAuth",
+        "TOTP",
+        "FTP",
+        "ICMP"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the main function of Metasploit?",
+      "options": [
+        "Network analysis",
+        "Exploit vulnerabilities",
+        "Firewall",
+        "Encryption"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a zero-day vulnerability?",
+      "options": [
+        "A vulnerability known and patched",
+        "An unknown and unpatched vulnerability",
+        "A type of malware",
+        "A security protocol"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does CVE stand for?",
+      "options": [
+        "Common Vulnerabilities and Exposures",
+        "Critical Virus Exploit",
+        "Certified Verified Exploit",
+        "Common Virus Enumeration"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the principle of least privilege?",
+      "options": [
+        "Give all users admin access",
+        "Limit user rights to minimum necessary",
+        "Encrypt all data",
+        "Open all ports"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which tool is used for packet sniffing?",
+      "options": [
+        "Metasploit",
+        "Wireshark",
+        "Nmap",
+        "John the Ripper"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is two-factor authentication (2FA)?",
+      "options": [
+        "Using two passwords",
+        "Using two different methods to verify identity",
+        "Logging in twice",
+        "Using a firewall twice"
+      ],
+      "correct": 1
+    }
+  ]
+}

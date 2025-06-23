@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cybersecurity Quiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+
+<div class="container py-4">
+  <h1 class="mb-4 text-center">Cybersecurity Quiz</h1>
+
+  <div class="mb-4 text-center">
+    <label for="quizSelect" class="form-label fw-bold">Select a quiz:</label>
+    <select id="quizSelect" class="form-select w-auto mx-auto" onchange="loadQuiz()">
+      <option disabled selected>Loading quizzes...</option>
+    </select>
+  </div>
+
+  <div id="quizContainer"></div>
+
+  <div id="result" class="alert alert-info mt-4 d-none text-center"></div>
+</div>
+
+<script>
+let quizzesList = [];
+let quiz = null;
+let userAnswers = [];
+let currentIndex = 0;
+
+async function loadQuizzesList() {
+  try {
+    const res = await fetch('index.json');
+    quizzesList = await res.json();
+
+    const select = document.getElementById('quizSelect');
+    select.innerHTML = '<option disabled selected>Select a quiz</option>';
+
+    quizzesList.forEach(filename => {
+      // Option label: remove extension + replace _ by spaces + capitalize words
+      let label = filename.replace('.json','').replace(/_/g,' ');
+      label = label.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      const option = document.createElement('option');
+      option.value = filename;
+      option.textContent = label;
+      select.appendChild(option);
+    });
+  } catch (e) {
+    alert('Error loading quizzes list.');
+    document.getElementById('quizSelect').innerHTML = '<option disabled>Error loading quizzes</option>';
+  }
+}
+
+async function loadQuiz() {
+  const select = document.getElementById('quizSelect');
+  const file = select.value;
+  if (!file) return;
+
+  userAnswers = [];
+  currentIndex = 0;
+  document.getElementById('result').classList.add('d-none');
+  document.getElementById('quizContainer').innerHTML = 'Loading quiz...';
+
+  try {
+    const res = await fetch('quizzes/' + file);
+    quiz = await res.json();
+    showQuestion();
+  } catch (e) {
+    document.getElementById('quizContainer').innerHTML = '<div class="alert alert-danger">Error loading quiz.</div>';
+  }
+}
+
+function showQuestion() {
+  if (currentIndex >= quiz.questions.length) {
+    showResult();
+    return;
+  }
+
+  const q = quiz.questions[currentIndex];
+  let html = `
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Question ${currentIndex + 1} / ${quiz.questions.length}</h5>
+        <p class="card-text">${q.question}</p>
+        <form id="formAnswers">`;
+
+  q.options.forEach((opt, i) => {
+    html += `
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="answer" id="opt${i}" value="${i}">
+        <label class="form-check-label" for="opt${i}">${opt}</label>
+      </div>`;
+  });
+
+  html += `
+        </form>
+        <button class="btn btn-primary mt-3" onclick="submitAnswer()">Submit</button>
+      </div>
+    </div>`;
+
+  document.getElementById('quizContainer').innerHTML = html;
+}
+
+function submitAnswer() {
+  const form = document.getElementById('formAnswers');
+  const selected = form.answer.value;
+  if (selected === undefined) {
+    alert('Please select an answer.');
+    return;
+  }
+
+  userAnswers.push(parseInt(selected));
+  currentIndex++;
+  showQuestion();
+}
+
+function showResult() {
+  let score = 0;
+  quiz.questions.forEach((q, i) => {
+    if (userAnswers[i] === q.correct) score++;
+  });
+
+  const percent = Math.round((score / quiz.questions.length) * 100);
+
+  let level = '';
+  if (percent >= 90) level = '🏆 Expert level - Excellent mastery!';
+  else if (percent >= 75) level = '🥇 Advanced level - Very good!';
+  else if (percent >= 60) level = '🥈 Intermediate level - Good job!';
+  else level = '📚 Beginner level - Keep studying!';
+
+  document.getElementById('quizContainer').innerHTML = '';
+  const resultDiv = document.getElementById('result');
+  resultDiv.innerHTML = `
+    <h4>Quiz completed!</h4>
+    <p>Your score: ${score} / ${quiz.questions.length} (${percent}%)</p>
+    <p>${level}</p>
+    <button class="btn btn-secondary mt-3" onclick="loadQuiz()">Try again</button>
+  `;
+  resultDiv.classList.remove('d-none');
+}
+
+window.onload = loadQuizzesList;
+</script>
+
+</body>
+</html>

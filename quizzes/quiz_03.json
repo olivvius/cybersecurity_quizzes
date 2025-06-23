@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What does the acronym 'OSINT' stand for in cybersecurity?",
+      "options": [
+        "Open Source Intelligence",
+        "Operating System Interface",
+        "Operational System Integration",
+        "Opacity System Intelligence"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In penetration testing, what does the 'Blue Team' do?",
+      "options": [
+        "They attack systems",
+        "They develop software",
+        "They defend systems",
+        "They maintain systems"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which encryption algorithm is considered the most secure?",
+      "options": [
+        "MD5",
+        "SHA-256",
+        "AES-256",
+        "RSA-2048"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the main purpose of a 'Honeypot' in cybersecurity?",
+      "options": [
+        "To attract cyber attackers",
+        "To protect sensitive data",
+        "To detect malware",
+        "To encrypt data"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does 'XSS' stand for in the context of web security?",
+      "options": [
+        "Xenophobic Security System",
+        "Xtra Safe System",
+        "Cross Site Scripting",
+        "Cross System Security"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is 'Steganography' in the context of cybersecurity?",
+      "options": [
+        "The study of secure communication",
+        "The practice of hiding information within other data",
+        "The process of encrypting data",
+        "The analysis of malware"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a 'Rainbow Table' in the context of password cracking?",
+      "options": [
+        "A list of common passwords",
+        "A table of hashed password combinations",
+        "A table of unencrypted passwords",
+        "A colorful table"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the main purpose of 'DNS Spoofing'?",
+      "options": [
+        "To gain unauthorized access to a computer",
+        "To redirect traffic to a different website",
+        "To encrypt data",
+        "To detect malware"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a 'Zero-day' vulnerability?",
+      "options": [
+        "A vulnerability that has been patched",
+        "A vulnerability that is known to the software vendor",
+        "A vulnerability that is unknown to the software vendor",
+        "A vulnerability that has no impact"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does 'WAF' stand for in the context of web security?",
+      "options": [
+        "Web Access Firewall",
+        "Web Application Firewall",
+        "Web Applied Framework",
+        "Wide Area Frequency"
+      ],
+      "correct": 1
+    }
+  ]
+}
