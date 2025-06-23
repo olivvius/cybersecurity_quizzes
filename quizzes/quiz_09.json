@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is the main function of the Wireshark tool?",
+      "options": [
+        "Scanning open ports",
+        "Analyzing network packets",
+        "Brute force attacks",
+        "Exploit software vulnerabilities"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary purpose of a rainbow table in cryptography?",
+      "options": [
+        "To store hashed passwords",
+        "To speed up the password cracking process",
+        "To encrypt data",
+        "To create digital signatures"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In OSINT, what is SOCMINT an abbreviation for?",
+      "options": [
+        "Social Media Intelligence",
+        "Social Cybersecurity Intelligence",
+        "Software Communication Intelligence",
+        "System Operation Control Intelligence"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary function of the Volatility tool in forensics?",
+      "options": [
+        "Recovering deleted files",
+        "Analyzing RAM for forensics",
+        "Cracking passwords",
+        "Detecting malware"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which protocol provides secure remote access by establishing an encrypted tunnel?",
+      "options": [
+        "HTTP",
+        "SSH",
+        "FTP",
+        "SMTP"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the 'ls -la' command do in a Unix-based system?",
+      "options": [
+        "Lists all files, including hidden ones, in long format",
+        "Shows the system's IP configuration",
+        "Deletes all files in the current directory",
+        "Installs a new software package"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What type of attack involves sending unsolicited messages to Bluetooth enabled devices?",
+      "options": [
+        "Bluejacking",
+        "Bluesnarfing",
+        "Bluebugging",
+        "Bluetooth phishing"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does the 'nmap' command do?",
+      "options": [
+        "It is used for network mapping",
+        "It is used for file transfer",
+        "It is used for remote administration",
+        "It is used for scheduling tasks"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the main purpose of a 'bot' in a botnet?",
+      "options": [
+        "To manage the botnet",
+        "To launch DDoS attacks",
+        "To defend against cyber attacks",
+        "To monitor network traffic"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the 'chmod 777' command do in a Unix-based system?",
+      "options": [
+        "It gives read, write and execute permissions to all users",
+        "It removes all permissions for all users",
+        "It changes the ownership of a file",
+        "It deletes a file"
+      ],
+      "correct": 0
+    }
+  ]
+}

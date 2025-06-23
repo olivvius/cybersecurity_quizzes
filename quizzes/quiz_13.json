@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What does the '-n' option do in the NMAP command?",
+      "options": [
+        "Perform a fast scan",
+        "Do not resolve hostnames",
+        "Enable OS detection",
+        "Scan TCP ports"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following tools is used for wireless attack and can crack WEP and WPA PSK (Pre-Shared Key)?",
+      "options": [
+        "John the Ripper",
+        "Metasploit",
+        "Aircrack-ng",
+        "Wireshark"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following encryption algorithms is the MOST secure?",
+      "options": [
+        "AES",
+        "Triple DES",
+        "Blowfish",
+        "RC4"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a tool used for OSINT (Open-Source Intelligence)?",
+      "options": [
+        "Shodan",
+        "Maltego",
+        "Metasploit",
+        "Google Dorks"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the main purpose of the Volatility tool in digital forensics?",
+      "options": [
+        "Packet sniffing",
+        "Memory forensics",
+        "Password cracking",
+        "Vulnerability scanning"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the term 'salting' refer to in cybersecurity?",
+      "options": [
+        "Injecting false information to mislead attackers",
+        "Adding random data to a password before hashing",
+        "Removing sensitive data from a system",
+        "Securing wireless networks"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which protocol provides secure file transfer capabilities?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SFTP",
+        "SMTP"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of a 'honeypot' in network security?",
+      "options": [
+        "To trap intruders",
+        "To encrypt network data",
+        "To monitor network traffic",
+        "To backup network data"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which Linux command can change the ownership of a file?",
+      "options": [
+        "chmod",
+        "chown",
+        "cd",
+        "ls"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a type of privilege escalation attack?",
+      "options": [
+        "Spoofing",
+        "Eavesdropping",
+        "Phishing",
+        "Buffer overflow"
+      ],
+      "correct": 3
+    }
+  ]
+}

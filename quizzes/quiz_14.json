@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "Which tool is typically used for enumeration in the OSINT phase of a pentest?",
+      "options": [
+        "Nmap",
+        "Metasploit",
+        "Recon-ng",
+        "Wireshark"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does the 'K' stand for in the cryptographic system known as RSA?",
+      "options": [
+        "Kryptos",
+        "Kepler",
+        "Kleptography",
+        "Kra"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following commands would you use to display the routing table of a Unix/Linux system?",
+      "options": [
+        "netstat -r",
+        "ipconfig /displaydns",
+        "nbtstat -r",
+        "arp -a"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following tools would you use to perform a DNS zone transfer?",
+      "options": [
+        "Nmap",
+        "Dig",
+        "Netcat",
+        "Wireshark"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What type of attack involves flooding a network or system with traffic to cause a denial of service?",
+      "options": [
+        "DDoS attack",
+        "Brute force attack",
+        "SQL injection attack",
+        "Cross-Site Scripting attack"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does the 'cat' command do in Unix/Linux systems?",
+      "options": [
+        "Concatenates and displays file content",
+        "Changes file permissions",
+        "Changes ownership of a file",
+        "Creates a new file"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does the volatility tool do in the field of digital forensics?",
+      "options": [
+        "Recovers deleted files",
+        "Analyses RAM for forensic investigations",
+        "Cracks passwords",
+        "Detects viruses and malware"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of a rainbow table in cryptography?",
+      "options": [
+        "To store keys securely",
+        "To speed up the process of cracking password hashes",
+        "To organize cryptographic keys by color",
+        "To visualize encrypted data"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary purpose of a VPN?",
+      "options": [
+        "To increase your internet speed",
+        "To bypass geographical restrictions",
+        "To encrypt your internet traffic and enhance your online privacy",
+        "To block ads and trackers"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which Linux command would you use to change file permissions?",
+      "options": [
+        "chown",
+        "chmod",
+        "ls",
+        "rm"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -2,104 +2,104 @@
   "title": "Cybersecurity - Hard Level",
   "questions": [
     {
-      "question": "In penetration testing, what does the term 'fuzzing' refer to?",
+      "question": "What does the 'nmap -sS -p 22,80,443 192.168.1.1' command line do?",
       "options": [
-        "Performing a dictionary attack",
-        "Injecting random data to crash the system",
-        "Gaining unauthorized access to a system",
-        "Hiding malicious code in legitimate software"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What does the acronym OSINT stand for in cybersecurity?",
-      "options": [
-        "Open Source Intelligent Network Transmission",
-        "Open Source Intelligence",
-        "Operating System Integrated Network Tool",
-        "Operation Secure Internet Network Transmission"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which of the following is the most secure symmetric encryption algorithm?",
-      "options": [
-        "DES",
-        "AES",
-        "RC4",
-        "Blowfish"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In digital forensics, what is the purpose of a checksum?",
-      "options": [
-        "To verify the integrity of data",
-        "To encrypt data",
-        "To detect viruses",
-        "To compress data"
+        "Scans ports 22, 80, and 443 of the host 192.168.1.1 using TCP SYN scan",
+        "Sets up a SSH connection to the host 192.168.1.1",
+        "Downloads a file from the host 192.168.1.1",
+        "None of the above"
       ],
       "correct": 0
     },
     {
-      "question": "What is the principle of 'least privilege' in cybersecurity?",
+      "question": "In the context of cryptography, what is a 'nonce'?",
       "options": [
-        "Giving users the minimum levels of access necessary",
-        "Restricting physical access to hardware",
-        "Installing the minimum amount of software",
-        "Limiting the number of login attempts"
+        "A cryptographic algorithm",
+        "A unique number used only once in a cryptographic communication",
+        "A cryptographic key",
+        "A type of malware"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "What does a 'salting' process do in context of password storage?",
+      "question": "What is the main purpose of using a 'rainbow table' in cybersecurity?",
       "options": [
-        "It simplifies the password",
-        "It encrypts the password",
-        "It adds a random value to the password before hashing",
-        "It stores the password in plain text"
+        "To visualize data",
+        "To crack hashed passwords",
+        "To scan networks",
+        "To encrypt data"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "What type of attack is a 'Smurf' attack?",
+      "question": "Which tool is commonly used for OSINT (Open Source Intelligence)?",
       "options": [
-        "DDoS Attack",
-        "Man in the Middle Attack",
-        "Passive Attack",
-        "Phishing Attack"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which of the following is not a type of malware?",
-      "options": [
-        "Worm",
-        "Trojan",
-        "Ransomware",
-        "Blockchain"
+        "John the Ripper",
+        "Metasploit",
+        "Wireshark",
+        "Shodan"
       ],
       "correct": 3
     },
     {
-      "question": "What does the 'P' stand for in the acronym 'HTTPS'?",
+      "question": "What is 'steganography' in the context of cybersecurity?",
       "options": [
-        "Protocol",
-        "Protection",
-        "Private",
-        "Public"
+        "The study of secure network topologies",
+        "The practice of hiding information within other non-secret text or data",
+        "A type of malware",
+        "A method of cracking encrypted data"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is not a typical phase of a penetration test?",
+      "options": [
+        "Reconnaissance",
+        "Scanning",
+        "Exploitation",
+        "Encryption"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In digital forensics, what does the term 'live acquisition' refer to?",
+      "options": [
+        "The process of obtaining evidence in real-time while the system is running",
+        "The process of obtaining a copy of a hard drive",
+        "The process of hacking into a live system",
+        "None of the above"
       ],
       "correct": 0
     },
     {
-      "question": "What is steganography in the context of cybersecurity?",
+      "question": "What does the 'tcpdump' command do in a Unix/Linux environment?",
       "options": [
-        "Encrypting data",
-        "Hiding data within other data",
-        "Transmitting data wirelessly",
-        "Removing sensitive information from data"
+        "It dumps the memory of the TCP stack",
+        "It monitors network traffic",
+        "It intercepts and logs TCP connections",
+        "It checks the TCP/IP configuration"
       ],
       "correct": 1
+    },
+    {
+      "question": "What does 'XSS' stand for in cybersecurity?",
+      "options": [
+        "eXtra Security System",
+        "Cross-Site Scripting",
+        "eXtreme Security Shield",
+        "Cross-Security Shield"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which among the following is not an example of a network protocol?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "JPEG"
+      ],
+      "correct": 3
     }
   ]
 }

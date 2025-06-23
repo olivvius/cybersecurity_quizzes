@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is the process of reverse engineering a software's machine code back into source code called?",
+      "options": [
+        "Decompiling",
+        "Decoding",
+        "Decrypting",
+        "Dehashing"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following tools is used for advanced persistent threat emulation?",
+      "options": [
+        "Nmap",
+        "Metasploit",
+        "Cobalt Strike",
+        "Wireshark"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which cryptographic algorithm is considered to be quantum computer resistant?",
+      "options": [
+        "RSA",
+        "AES",
+        "SHA-256",
+        "Lattice-based cryptography"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the Linux command 'chroot' do?",
+      "options": [
+        "Changes the root directory",
+        "Changes file permissions",
+        "Displays disk usage",
+        "Sends a SIGKILL signal to a process"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the context of cybersecurity, what does 'OSINT' stand for?",
+      "options": [
+        "Open Source Intelligence",
+        "Operating System Integrated Tools",
+        "Operational Security Intrusion Techniques",
+        "Over Secure Internet Transfer"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is 'Steganography'?",
+      "options": [
+        "The art of breaking codes",
+        "The practice of hiding information within other information",
+        "The method of creating secure network tunnels",
+        "The technique of impersonating a user on a network"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a network protocol analyzer?",
+      "options": [
+        "OpenVAS",
+        "Nessus",
+        "Burp Suite",
+        "Wireshark"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the 'ls' command do in a Linux system?",
+      "options": [
+        "Lists directory contents",
+        "Changes directory",
+        "Shows the manual page of a command",
+        "Deletes a file"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary purpose of a firewall?",
+      "options": [
+        "Malware detection",
+        "Intrusion Prevention",
+        "Data Loss Prevention",
+        "Traffic Control"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following is not a type of penetration testing?",
+      "options": [
+        "Black Box",
+        "Glass Box",
+        "White Box",
+        "Green Box"
+      ],
+      "correct": 3
+    }
+  ]
+}

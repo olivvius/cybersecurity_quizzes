@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "Which of the following tools is most commonly used for brute-force attacks?",
+      "options": [
+        "Nmap",
+        "Wireshark",
+        "John the Ripper",
+        "Aircrack-ng"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does the '-sn' option do in a Nmap command?",
+      "options": [
+        "Performs a service scan",
+        "Performs a TCP SYN scan",
+        "Disables port scanning",
+        "Enables verbose mode"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "OSINT stands for...",
+      "options": [
+        "Open System Interconnect Network",
+        "Open Source Inter-Net",
+        "Open Source Intelligence",
+        "Over Secure Internet Network"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which cryptographic algorithm is no longer considered safe due to advances in processing power?",
+      "options": [
+        "RSA",
+        "Blowfish",
+        "AES",
+        "DES"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the main purpose of a Rootkit?",
+      "options": [
+        "To provide root access to the user",
+        "To monitor network traffic",
+        "To hide the presence of certain processes or programs",
+        "To encrypt data"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which forensics tool is used for recovering deleted data?",
+      "options": [
+        "Wireshark",
+        "Metasploit",
+        "Sleuth Kit",
+        "Hydra"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of network security, what is a 'honeypot'?",
+      "options": [
+        "A tool for detecting intruders in a network",
+        "A decoy system intended to attract potential attackers",
+        "A secure area of a network that is monitored",
+        "A type of malware"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is not a type of malware?",
+      "options": [
+        "Trojan",
+        "Worm",
+        "Spyware",
+        "Firewall"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the 'ls' command do in Linux?",
+      "options": [
+        "Displays the contents of a directory",
+        "Deletes a directory",
+        "Creates a directory",
+        "Renames a directory"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the main function of SELinux?",
+      "options": [
+        "To manage user permissions",
+        "To protect the system from malware",
+        "To control access to system resources",
+        "To encrypt data"
+      ],
+      "correct": 2
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is the primary use of Metasploit in ethical hacking?",
+      "options": [
+        "Password Cracking",
+        "Exploit Development",
+        "Information Gathering",
+        "Vulnerability Scanning"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of cryptography, what does RSA stand for?",
+      "options": [
+        "Rivest-Shamir-Adleman",
+        "Random Symmetric Algorithm",
+        "Rapid Security Assessment",
+        "Rogue Security Application"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In computer forensics, what does the 'live acquisition' method involve?",
+      "options": [
+        "Extracting data from a turned off computer",
+        "Extracting data from a computer while it's running",
+        "Extracting data remotely",
+        "Extracting data from a quarantined system"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following protocols operates at the highest layer of the OSI model?",
+      "options": [
+        "HTTP",
+        "TCP",
+        "IP",
+        "Ethernet"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of the 'chmod' command in Unix/Linux?",
+      "options": [
+        "Change the owner of a file",
+        "Change the group of a file",
+        "Change file permissions",
+        "Change file location"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is a 'Honeypot' in the context of Network Security?",
+      "options": [
+        "A type of malware",
+        "A decoy system to attract hackers",
+        "A secure network segment",
+        "A network intrusion detection system"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which tool is commonly used for OSINT (Open Source Intelligence)?",
+      "options": [
+        "Nmap",
+        "Metasploit",
+        "Maltego",
+        "Wireshark"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In cryptography, what does 'AES' stand for?",
+      "options": [
+        "Advanced Encryption Standard",
+        "Automated Encryption Sequence",
+        "Authenticated Encryption System",
+        "Application Encryption Syntax"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does the 'ls' command do in Unix/Linux?",
+      "options": [
+        "Creates a new directory",
+        "Deletes a directory",
+        "Lists files and directories",
+        "Moves files"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What type of attack involves overwhelming a system with traffic or requests to cause a denial of service?",
+      "options": [
+        "Brute Force Attack",
+        "SQL Injection Attack",
+        "DDoS Attack",
+        "Cross-Site Scripting Attack"
+      ],
+      "correct": 2
+    }
+  ]
+}

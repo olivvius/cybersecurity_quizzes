@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is the process of attempting to gain access to resources without knowledge of usernames, passwords and other normal means of access called?",
+      "options": [
+        "Social Engineering",
+        "Zero-day Exploitation",
+        "Brute Forcing",
+        "Spear Phishing"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which tool is commonly used for passive reconnaissance to gather information about a target without directly interacting with their systems?",
+      "options": [
+        "Nmap",
+        "John the Ripper",
+        "Metasploit",
+        "Shodan"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following is not a symmetric encryption algorithm?",
+      "options": [
+        "AES",
+        "DES",
+        "RSA",
+        "Blowfish"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of penetration testing, what does the 'ls' Linux command do?",
+      "options": [
+        "Lists all files and directories in the current location",
+        "Shows the current directory",
+        "Deletes a file",
+        "Connects to a server"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What kind of attack involves intercepting and altering communication between two parties without their knowledge?",
+      "options": [
+        "Man-in-the-middle Attack",
+        "Ransomware Attack",
+        "Denial of Service Attack",
+        "Brute Force Attack"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of the 'strings' program in cyber forensics?",
+      "options": [
+        "To encrypt data",
+        "To find readable strings in a binary file",
+        "To generate random data",
+        "To manipulate data"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the 'chmod' command do in Unix/Linux systems?",
+      "options": [
+        "Changes the ownership of a file",
+        "Changes the permissions of a file",
+        "Changes the group of a file",
+        "Changes the date of a file"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the standard port number for HTTPs?",
+      "options": [
+        "80",
+        "443",
+        "22",
+        "23"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the name of the process of hiding a message or information within another message or information?",
+      "options": [
+        "Encryption",
+        "Steganography",
+        "Obfuscation",
+        "Cryptography"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of cybersecurity, what does APT stand for?",
+      "options": [
+        "Advanced Persistent Threat",
+        "Advanced Protection Technique",
+        "Anti-Phishing Technology",
+        "Active Port Test"
+      ],
+      "correct": 0
+    }
+  ]
+}

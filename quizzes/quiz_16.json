@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is the default port for HTTPS?",
+      "options": [
+        "80",
+        "443",
+        "21",
+        "22"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the Linux command 'ls -l' display?",
+      "options": [
+        "File name only",
+        "File type and file name",
+        "Detailed list information",
+        "File path and file name"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does the 'nmap' tool primarily used for?",
+      "options": [
+        "Password cracking",
+        "Network scanning",
+        "Data encryption",
+        "System monitoring"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the name of the process by which plaintext is converted into ciphertext?",
+      "options": [
+        "Decryption",
+        "Encryption",
+        "Hashing",
+        "Salting"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What type of attack involves intercepting and possibly altering communication between two parties without their knowledge?",
+      "options": [
+        "DDoS attack",
+        "Man-in-the-middle attack",
+        "Brute force attack",
+        "Phishing"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What tool is commonly used for forensic imaging?",
+      "options": [
+        "Nessus",
+        "Metasploit",
+        "Wireshark",
+        "Ftk Imager"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the primary purpose of OSINT?",
+      "options": [
+        "Password cracking",
+        "Gathering data from public sources",
+        "Intrusion detection",
+        "Firewall configuration"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which cryptographic algorithm is not symmetric?",
+      "options": [
+        "AES",
+        "DES",
+        "3DES",
+        "RSA"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the function of a packet sniffer?",
+      "options": [
+        "To monitor network traffic",
+        "To crack passwords",
+        "To block malicious websites",
+        "To encrypt data packets"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of a 'rainbow table' in hacking?",
+      "options": [
+        "To perform DDoS attacks",
+        "To crack hash functions",
+        "To sniff network packets",
+        "To scan networks"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "What is the name of the advanced persistent threat group identified by CrowdStrike as Russian in origin, known for exploiting zero-day vulnerabilities?",
+      "options": [
+        "Fancy Bear",
+        "Cozy Bear",
+        "Naughty Panda",
+        "Charming Kitten"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In cryptography, what does PFS stand for?",
+      "options": [
+        "Private File System",
+        "Perfect Forward Secrecy",
+        "Public Forward Secrecy",
+        "Partial File Security"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary purpose of the 'nmap' command-line tool?",
+      "options": [
+        "To send an email",
+        "To create a directory",
+        "To map a network",
+        "To encrypt data"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is not a type of network attack?",
+      "options": [
+        "Smurf attack",
+        "Teardrop attack",
+        "Waterfall attack",
+        "Ping of Death"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the term used for gathering publicly available information about a target during a penetration test?",
+      "options": [
+        "DNS enumeration",
+        "IP scanning",
+        "OSINT",
+        "Phishing"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which command in Linux can be used to change the owner of a file?",
+      "options": [
+        "chown",
+        "chmod",
+        "ls",
+        "mv"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary purpose of the 'John the Ripper' tool?",
+      "options": [
+        "Network scanning",
+        "Password cracking",
+        "Forensic analysis",
+        "Exploit development"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the name of the algorithm used to protect the integrity of SSL certificates?",
+      "options": [
+        "SHA-2",
+        "AES",
+        "RSA",
+        "DES"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In digital forensics, what does the term 'steganography' refer to?",
+      "options": [
+        "The study of malware",
+        "The practice of hiding data within other data",
+        "The process of reverse engineering software",
+        "The technique of encrypting data"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which tool is often used for network intrusion detection?",
+      "options": [
+        "Nmap",
+        "John the Ripper",
+        "Wireshark",
+        "Snort"
+      ],
+      "correct": 3
+    }
+  ]
+}

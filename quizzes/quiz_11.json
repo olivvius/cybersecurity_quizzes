@@ -1,0 +1,105 @@
+{
+  "title": "Cybersecurity - Hard Level",
+  "questions": [
+    {
+      "question": "In penetration testing, what does the 'N' in the NMAP tool stand for?",
+      "options": [
+        "Network",
+        "Nodal",
+        "Neural",
+        "Nexus"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which cryptographic algorithm is currently considered to be the most secure?",
+      "options": [
+        "RSA",
+        "SHA-1",
+        "AES",
+        "MD5"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does the 'OSINT' in Cybersecurity stand for?",
+      "options": [
+        "Open Source Intelligence",
+        "Operating System Interface",
+        "Operational Sensitive Integration",
+        "Optimized System Integration"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which tool is commonly used for digital forensics in Cybersecurity?",
+      "options": [
+        "Metasploit",
+        "Wireshark",
+        "Autopsy",
+        "Burp Suite"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does the 'ping' command do in a network?",
+      "options": [
+        "It connects to a network",
+        "It downloads a file from a network",
+        "It sends a request to a network",
+        "It disconnects from a network"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is not a type of firewall?",
+      "options": [
+        "Packet-filtering firewall",
+        "Stateful inspection firewall",
+        "Proxy firewall",
+        "Virus firewall"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the primary purpose of a VPN in cybersecurity?",
+      "options": [
+        "Bypassing network restrictions",
+        "Encrypting network traffic",
+        "Speeding up network connections",
+        "Blocking malicious websites"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which command in Linux is used to change the owner of a file?",
+      "options": [
+        "chown",
+        "chmod",
+        "chgrp",
+        "chdir"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In cybersecurity, what does 'XSS' stand for?",
+      "options": [
+        "eXtreme Scripting Security",
+        "Cross Site Scripting",
+        "Cross System Security",
+        "eXtended Security System"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a 'honeypot' in the context of cybersecurity?",
+      "options": [
+        "A tool to detect viruses",
+        "A method to crack passwords",
+        "A decoy system to attract hackers",
+        "A tool to secure network traffic"
+      ],
+      "correct": 2
+    }
+  ]
+}
