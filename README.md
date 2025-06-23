@@ -1,6 +1,6 @@
 # Cybersecurity Quizzes
 
-This project provides multiple-choice quizzes on cybersecurity topics, ranging from easy to hard levels. The quizzes are hosted as JSON files and accessible through a web interface.
+This project provides multiple-choice quizzes on cybersecurity topics. The quizzes are hosted as JSON files and accessible through a web interface.
 
 **Try it online:**  
 https://olivvius.github.io/cybersecurity_quizzes/
